@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(229, 229, 220);
+    font-size: calc(0.5em + 1vw);
+    border: 5px solid #FFF;
+    padding:30px;
+    font-family: Georgia, Times, 'Times New Roman';
+}
+section {
+    border: inherit;
+    padding:inherit;
+    font-family: initial;
+}
+
+h1, h2 {
+    text-align: center;
+}
+p {
+    background-color: rgb(235, 242, 237);
+}
+
+nav {
+  display: inline-block; 
+}
+
+.image {
+border-radius: 90px;
+
+}
+.image:hover {
+    transform: rotate(360deg);
+    transition: transform .8s
+}
